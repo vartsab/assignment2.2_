@@ -1,61 +1,6 @@
 package com.company;
 
-public class ServiceClass {
-
-    public void print(Gryffindor student) {
-        System.out.println(
-                student.getFullName() +
-                        "\n\tpower:\t" + student.getPower() +
-                        "\n\ttransgression distance:\t" + student.getTransgressionDistance() +
-
-                        "\n\tnobility:\t" + student.getNobility() +
-                        "\n\thonour:\t" + student.getHonour() +
-                        "\n\tbravery:\t" + student.getBravery()
-        );
-        System.out.println();
-    }
-
-    public void print(Hufflepuff student) {
-        System.out.println(
-                student.getFullName() +
-                        "\n\tpower:\t" + student.getPower() +
-                        "\n\ttransgression distance:\t" + student.getTransgressionDistance() +
-
-                        "\n\tdiligence\t" + student.getDiligence() +
-                        "\n\tloyalty\t" + student.getLoyalty() +
-                        "\n\thonesty\t" + student.getHonesty()
-        );
-        System.out.println();
-    }
-
-    public void print(Ravenclaw student) {
-        System.out.println(
-                student.getFullName() +
-                        "\n\tpower:\t" + student.getPower() +
-                        "\n\ttransgression distance:\t" + student.getTransgressionDistance() +
-
-                        "\n\tintelligence\t" + student.getIntelligence() +
-                        "\n\twisdom\t" + student.getWisdom() +
-                        "\n\twit\t" + student.getWit() +
-                        "\n\tcreativity\t" + student.getCreativity()
-        );
-        System.out.println();
-    }
-
-    public void print(Slytherin student) {
-        System.out.println(
-                student.getFullName() +
-                        "\n\tpower:\t" + student.getPower() +
-                        "\n\ttransgression distance:\t" + student.getTransgressionDistance() +
-
-                        "\n\tcunning:\t" + student.getCunning() +
-                        "\n\tdetermined:\t" + student.getDetermined() +
-                        "\n\tambition:\t" + student.getAmbition() +
-                        "\n\tresourceful:\t" + student.getResourceful() +
-                        "\n\tthirst for power:\t" + student.getThirstRorPower()
-        );
-        System.out.println();
-    }
+public class Compare {
 
     public void compare (Gryffindor leftStudent, Gryffindor rightStudent) {
         System.out.println(

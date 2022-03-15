@@ -21,17 +21,17 @@ public class Main {
         Slytherin graham = new Slytherin("Graham Montagu", 55,99,99,12,99,99,99);
         Slytherin greg = new Slytherin("Gregory Goyle", 55,45,45,39,59,99,99);
 
-        ServiceClass service = new ServiceClass();
+        Compare compare = new Compare();
 
-        service.print(hermione);
-        service.print(greg);
+        System.out.println(padma.toString());
+        System.out.println(greg.toString());
 
-        service.print(harry);
-        service.print(hermione);
-        service.compare(harry, hermione);
+        System.out.println(harry.toString());
+        System.out.println(hermione.toString());
+        compare.compare(harry, hermione);
 
-        service.print(draco);
-        service.compare(draco, harry);
+        System.out.println(draco.toString());
+        compare.compare(draco, harry);
 
 
     }
