@@ -37,6 +37,7 @@ public class Slytherin extends Hogwarts {
 
     public void setThirstRorPower(int thirstRorPower) { this.thirstForPower = thirstRorPower; }
 
+    @Override
     public String toString() {
         return this.getFullName() +
                 "\n\tpower: " + this.getPower() +

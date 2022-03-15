@@ -31,6 +31,7 @@ public class Ravenclaw extends Hogwarts {
 
     public void setCreativity(int creativity) { this.creativity = creativity; }
 
+    @Override
     public String toString() {
         return this.getFullName() +
                 "\n\tpower: " + this.getPower() +

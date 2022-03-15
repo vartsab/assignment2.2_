@@ -1,6 +1,6 @@
 package com.company;
 
-public class Compare {
+public class Service {
 
     public void compare (Gryffindor leftStudent, Gryffindor rightStudent) {
         System.out.println(

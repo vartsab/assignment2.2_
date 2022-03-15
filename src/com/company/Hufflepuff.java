@@ -25,6 +25,7 @@ public class Hufflepuff extends Hogwarts {
 
     public void setHonesty(int honesty) { this.honesty = honesty; }
 
+    @Override
     public String toString() {
         return this.getFullName() +
                 "\n\tpower: " + this.getPower() +

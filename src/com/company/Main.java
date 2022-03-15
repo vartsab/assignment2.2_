@@ -3,7 +3,6 @@ package com.company;
 public class Main {
 
     public static void main(String[] args) {
-        // write your code here
 
         Gryffindor harry = new Gryffindor("Harry Potter", 80, 81, 97,97,95);
         Gryffindor ron = new Gryffindor("Ron Weasley", 75, 91, 90, 99, 90);
@@ -21,17 +20,17 @@ public class Main {
         Slytherin graham = new Slytherin("Graham Montagu", 55,99,99,12,99,99,99);
         Slytherin greg = new Slytherin("Gregory Goyle", 55,45,45,39,59,99,99);
 
-        Compare compare = new Compare();
+        Service service = new Service();
 
         System.out.println(padma.toString());
         System.out.println(greg.toString());
 
         System.out.println(harry.toString());
         System.out.println(hermione.toString());
-        compare.compare(harry, hermione);
+        service.compare(harry, hermione);
 
         System.out.println(draco.toString());
-        compare.compare(draco, harry);
+        service.compare(draco, harry);
 
 
     }
